@@ -26,10 +26,10 @@
     line-height: 30px;
   }
   footer{
-      font-size: 24px;
-      line-height: 36px;
-      padding: 14px 500;
-  }
+    font-size: 40px;
+    color: var(--primary-color);
+    margin:60px ;
+}
   .hero{
     background: var(--primary-color);
     text-align: center;
@@ -74,7 +74,7 @@
     background: var(--primary-color);
     border-radius: 20px;
     padding: 20px;
-    margin: 10px 60px;
+    margin: 10px 80px;
 }
 .inquiry-button{
     padding: 40px;
@@ -83,8 +83,16 @@
 .weather-image{
     margin-top: 150px;
    width: 650px;
+   
 }
-@media (max-width:900px){
+.email-link{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 81px 41px;
+}
+
+@media (max-width:576px){
     h1{
       font-size: 47px;
       line-height: 2;
@@ -95,7 +103,7 @@
     .hero{
         padding: 80px 20px;
           }
-          .project-description{
+     .project-description{
             padding: 20px;
             text-align: center;
           }
