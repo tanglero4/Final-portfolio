@@ -70,16 +70,13 @@
   .country {
     font-size: 16px;
   }
-.work-inquiry{
+  .work-inquiry{
     background: var(--primary-color);
     border-radius: 20px;
     padding: 20px;
     margin: 10px 80px;
 }
-.inquiry-button{
-    padding: 40px;
-    padding-left: 260px;
-}
+
 .weather-image{
     margin-top: 150px;
    width: 650px;
@@ -108,9 +105,11 @@
             text-align: center;
           }
     .inquiry-button{
-        padding: 50px 30px;
+padding-top: 10px;
+        padding: 0;
     }
     .work-inquiry{
+      text-align: center;
         margin-top: 60px;
     }
   }
