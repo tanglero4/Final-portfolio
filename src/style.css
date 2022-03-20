@@ -42,6 +42,9 @@ padding: 0;
   h2{
     font-size: 64px;
   }
+  h3{
+    font-size: 48px;
+  }
   p{
     color: #272142;
     font-size: 16px;
@@ -49,12 +52,28 @@ padding: 0;
   }
   footer{
     font-size: 40px;
-    color: var(--primary-color);
-    margin:60px ;
 }
 p a {
   text-decoration: none;
   color: var(--secondary-color);
+}
+footer .email-link{
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 60px 0px;
+}
+footer .email-link:hover{
+color: var(--secondary-color);
+}
+footer .social-media a{
+  margin: 0px 20px;
+  color: var(--secondary-color);
+  border-radius: 50%;
+}
+footer .social-media a:hover{
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
   .hero{
     background: var(--primary-color);
@@ -103,7 +122,7 @@ p a {
     margin: 10px 80px;
 }
 .inquiry-button{
-  padding: 40px;
+  padding: 20px;
   padding-left: 260px;
 }
 .weather-image{
@@ -111,13 +130,6 @@ p a {
    width: 650px;
    
 }
-.email-link{
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    margin: 81px 41px;
-}
-
 @media (max-width:576px){
     h1{
       font-size: 47px;
@@ -126,6 +138,9 @@ p a {
     h2{
       font-size: 44px;
     }
+    h3{
+      font-size: 28px;
+    }
     .hero{
         padding: 80px 20px;
           }
@@ -133,14 +148,6 @@ p a {
             padding: 20px;
             text-align: center;
           }
-    .inquiry-button{
-padding-top: 10px;
-        padding: 0;
-    }
-    .work-inquiry{
-      text-align: center;
-        margin-top: 60px;
-    }
     .email-link{
       font-size: 20px;
     }
