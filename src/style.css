@@ -76,7 +76,10 @@
     padding: 20px;
     margin: 10px 80px;
 }
-
+.inquiry-button{
+  padding: 40px;
+  padding-left: 260px;
+}
 .weather-image{
     margin-top: 150px;
    width: 650px;
@@ -111,5 +114,8 @@ padding-top: 10px;
     .work-inquiry{
       text-align: center;
         margin-top: 60px;
+    }
+    .email-link{
+      font-size: 20px;
     }
   }
